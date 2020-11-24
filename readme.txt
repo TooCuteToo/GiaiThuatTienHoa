@@ -22,7 +22,7 @@ Crossover: Quá trình giao phối giữa Parents.
 
 Children: Kết quả của quá trình giao phối.
 
-	- Những cá thể Children này sẽ định hình Population mới 	cho thế hệ tiếp theo.
+	- Những cá thể Children này sẽ định hình Population mới cho thế hệ tiếp theo.
 
 Elitism: Qúa trình đưa số lượng nhỏ Parents có điểm Fitness cao sang thế hệ tiếp theo.
 
