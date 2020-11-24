@@ -171,7 +171,9 @@ y = list(range(len(solutions)))
 def update_line(num, data, line):
     line.set_data(data[..., :num])
     solution_text.set_text(solutions[num])
-    generation_text.set_text("Generation: %.0f" % int(num))
+    secret_password_str = "".join(secret_password)
+    generation_text.set_text(
+        "Passcode: {} -- Generation: {}" .format(secret_password_str, num))
     return line,
 
 
