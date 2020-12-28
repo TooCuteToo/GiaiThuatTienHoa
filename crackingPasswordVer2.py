@@ -190,7 +190,9 @@ ax.set_xticklabels([])
 ax.tick_params(axis=u'both', which=u'both', length=0)
 solution_text = ax.text(3500, 100, "", fontsize=30, color="white",
                         horizontalalignment='center', verticalalignment='center')
+
 generation_text = ax.text(100, 170, "", fontsize=20, color="white")
 line_ani = animation.FuncAnimation(fig, update_line, len(
     solutions) + 1, fargs=(data, l), interval=20, repeat_delay=400)
+
 plt.show()
